@@ -5,11 +5,11 @@ Laravel9のサンプルプロジェクトです。
 
 ## 環境構築
 `$cd [cloneしたプロジェクト]`\
-- makefileに実行コマンドを記載しています。以下コマンドを実行してください。\
+makefileに実行コマンドを記載しています。以下コマンドを実行してください。
 - 初期インストール
-`$ make install`\
+`$ make install`
 - 停止
-`make down`\
+`make down`
 - 再起動
 `make up`
 
