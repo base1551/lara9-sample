@@ -3,18 +3,10 @@
 ## 概要
 Laravel9のサンプルプロジェクトです。
 
-Laravelで何か試したい場合は、このプロジェクトをコピーして実装してください。
-
 ## 環境構築
-- `$cd プロジェクト`
-- `$ docker compose up -d`
-- `$ docker compose exec app bash`
-- `[app] $ chmod -R 777 storage bootstrap/cache`
-- `[app] $ composer install`
-- `[app] $ cp .env.example .env`
-- `[app] $ php artisan key:generate`
-- `[app] $ php artisan storage:link`
-- `[app] $ php artisan migrate`
+`cd cloneしたプロジェクト`
+makefileに実行コマンドを記載しています。以下コマンドを実行してください。
+`$ make install`
 
 ## DBクライアントツールで接続したい場合
 - dbのportは3306で設定しています
