@@ -20,5 +20,11 @@ services:
       - db-store:/var/lib/mysql
     ports:
       - 3306:3306
+  mailhog:
+    image: "mailhog/mailhog:latest"
+    platform: linux/amd64
+    ports:
+      - 1025:1025
+      - 8025:8025
 volumes:
   db-store:
